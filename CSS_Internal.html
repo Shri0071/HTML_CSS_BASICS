@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Internal styling</title>
+    <style>
+
+        #firstpara{
+            color:deepskyblue;
+            background-color: antiquewhite;
+            width: 200px;
+            /* margin-left: 200px; */
+            margin: 300px 500px 50px 100px; 
+        }
+        .secondpara{
+            color: crimson;
+            font-size: 40px;
+        }
+        #id1{
+            color:chocolate;
+        }
+        #first-section{
+            color: #A3BB48;
+            background-color: #0F2B4C;
+            width: 200px;
+            position: fixed;
+            left: 10px;
+            top: 40px;
+            z-index: 1;
+            padding: 50px 100px 20px 50px;
+            /* float: right; */
+            /* position: absolute; */
+            /* left:200px
+            /* position: fixed; */
+        }
+        #second-section{
+            background-color: burlywood;
+            width: 50%;
+            height:1000px;
+            position: relative;
+            z-index: 4;
+            opacity: 0.7;
+            /* float:left; */
+        }
+        .clear{
+            clear:both;
+        }
+    </style>
+</head>
+<body>
+    <div id="firstpara">
+        <h1>CSS is cool</h1>
+        <p>I am learning CSS</p>
+    </div>
+    
+    <p class="secondpara" id="id1">CSS is fun</p>
+    <p class="secondpara">This is some random text</p>
+
+    <div id="first-section">
+        <h3>Hii I am Shristi!!</h3>
+        <p>I live in Kolkata</p>
+    </div>
+
+    <div id="second-section">
+        <p>I work at Global IDs</p>
+        <p>I live in Kolkata</p>
+    </div>
+    <p class="clear">This is not floated</p>
+</body>
+</html>
