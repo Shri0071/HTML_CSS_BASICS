@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Border Styling</title>
+
+    <style>
+        p {
+            
+                font-family: "Dancing Script", cursive;
+                font-size: 30px;
+                font-optical-sizing: auto;
+                font-weight: 800;
+                font-style:normal;
+            
+
+        }
+
+        .first {
+            background-color: blue;
+            border: 10px dotted yellow;
+        }
+
+        .second {
+            background-color: darkgreen;
+            border-style: dotted solid dashed ridge;
+        }
+
+        .third {
+            background-color: red;
+            border-radius: 75px;
+        }
+
+        .common {
+            height: 150px;
+            width: 150px;
+            margin: 30px;
+            float: left;
+        }
+        .bold{
+            font-weight: bold;
+        }
+        .italic{
+            font-style: italic;
+        }
+        .underline{
+            text-decoration: underline;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            color:blue;
+            text-decoration: underline;
+        }
+        a:visited{
+            color: gray;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <p>This is some text</p>
+    <hr>
+    <p class="bold">This is line1</p>
+    <p class="italic">This is line2</p>
+    <p class="underline">This is line3</p>
+    <a href="">Link to Google</a>
+    <hr>
+    <div class="first common"></div>
+    <div class="second common"></div>
+    <div class="third common"></div>
+</body>
+
+</html>
